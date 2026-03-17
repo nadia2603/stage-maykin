@@ -1,0 +1,78 @@
+:root {
+    /*Fonts*/
+    --font-size-100: 16px;
+    --font-size-200: 18px;
+    --font-size-300: 20px;
+    --font-size-400: 24px;
+    --font-size-500: 48px;
+
+    /*Font-weight*/
+    --font-weight-button: 700;
+    --font-weight-text: 400;
+
+    /*Line-height*/
+    --line-height-xl: 1.6;
+    --line-height-m: 1.4;
+
+    /*Border-radius*/
+    --border-radius-xl: 4.3em;
+    --border-radius-m: 2em;
+    --border-radius-s: 1.25em;
+
+    --green-hue: 172;
+    --green-sat: 15%;
+
+    --blue-hue: 212;
+    --blue-sat: 52%;
+
+    --purple-hue: 277;
+    --purple-sat: 19%;
+
+    --neutral-hue: 0;
+    --neutral-sat: 0%;
+
+    /*Green*/
+    --green-900: hsl(var(--green-hue), var(--green-sat), 6%);
+    --green-800: hsl(var(--green-hue), var(--green-sat), 12%);
+    --green-700: hsl(var(--green-hue), var(--green-sat), 22%);
+    --green-600: hsl(var(--green-hue), var(--green-sat), 32%);
+    --green-500: hsl(var(--green-hue), var(--green-sat), 42%);
+    --green-400: hsl(var(--green-hue), var(--green-sat), 52%);
+    --green-300: hsl(var(--green-hue), var(--green-sat), 62%);
+    --green-200: hsl(var(--green-hue), var(--green-sat), 72%);
+    --green-100: hsl(var(--green-hue), var(--green-sat), 82%);
+
+    /*Blue*/
+    --blue-900: hsl(var(--blue-hue), var(--blue-sat), 6%);
+    --blue-800: hsl(var(--blue-hue), var(--blue-sat), 16%);
+    --blue-700: hsl(var(--blue-hue), var(--blue-sat), 26%);
+    --blue-600: hsl(var(--blue-hue), var(--blue-sat), 36%);
+    --blue-500: hsl(var(--blue-hue), var(--blue-sat), 46%);
+    --blue-400: hsl(var(--blue-hue), var(--blue-sat), 56%);
+    --blue-300: hsl(var(--blue-hue), var(--blue-sat), 66%);
+    --blue-200: hsl(var(--blue-hue), var(--blue-sat), 76%);
+    --blue-100: hsl(var(--blue-hue), var(--blue-sat), 86%);
+
+    /*Purple*/
+    --purple-900: hsl(var(--purple-hue), var(--purple-sat), 11%);
+    --purple-800: hsl(var(--purple-hue), var(--purple-sat), 21%);
+    --purple-700: hsl(var(--purple-hue), var(--purple-sat), 31%);
+    --purple-600: hsl(var(--purple-hue), var(--purple-sat), 41%);
+    --purple-500: hsl(var(--purple-hue), var(--purple-sat), 52%);
+    --purple-400: hsl(var(--purple-hue), var(--purple-sat), 62%);
+    --purple-300: hsl(var(--purple-hue), var(--purple-sat), 72%);
+    --purple-200: hsl(var(--purple-hue), var(--purple-sat), 82%);
+
+    /*Neutral*/
+    --neutral-1000: hsl(var(--neutral-hue), var(--neutral-sat), 5%);
+    --neutral-900: hsl(var(--neutral-hue), var(--neutral-sat), 10%);
+    --neutral-800: hsl(var(--neutral-hue), var(--neutral-sat), 20%);
+    --neutral-700: hsl(var(--neutral-hue), var(--neutral-sat), 30%);
+    --neutral-600: hsl(var(--neutral-hue), var(--neutral-sat), 40%);
+    --neutral-500: hsl(var(--neutral-hue), var(--neutral-sat), 50%);
+    --neutral-400: hsl(var(--neutral-hue), var(--neutral-sat), 60%);
+    --neutral-300: hsl(var(--neutral-hue), var(--neutral-sat), 70%);
+    --neutral-200: hsl(var(--neutral-hue), var(--neutral-sat), 80%);
+    --neutral-100: hsl(var(--neutral-hue), var(--neutral-sat), 90%);
+    --neutral-50: hsl(var(--neutral-hue), var(--neutral-sat), 100%);
+}
