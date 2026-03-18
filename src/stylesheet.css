@@ -63,6 +63,9 @@
     --blue-hue: 212;
     --blue-sat: 52%;
 
+    --blue-green-hue: 191;
+    --blue-green-sat: 100%;
+
     --purple-hue: 277;
     --purple-sat: 19%;
 
@@ -90,6 +93,17 @@
     --blue-300: hsl(var(--blue-hue), var(--blue-sat), 66%);
     --blue-200: hsl(var(--blue-hue), var(--blue-sat), 76%);
     --blue-100: hsl(var(--blue-hue), var(--blue-sat), 86%);
+
+    /*Blue Green*/
+    --blue-green-900: hsl(var(--blue-green-hue), var(--blue-green-sat), 8%);
+    --blue-green-800: hsl(var(--blue-green-hue), var(--blue-green-sat), 18%);
+    --blue-green-700: hsl(var(--blue-green-hue), var(--blue-green-sat), 28%);
+    --blue-green-600: hsl(var(--blue-green-hue), var(--blue-green-sat), 38%);
+    --blue-green-500: hsl(var(--blue-green-hue), var(--blue-green-sat), 48%);
+    --blue-green-400: hsl(var(--blue-green-hue), var(--blue-green-sat), 58%);
+    --blue-green-300: hsl(var(--blue-green-hue), var(--blue-green-sat), 68%);
+    --blue-green-200: hsl(var(--blue-green-hue), var(--blue-green-sat), 78%);
+    --blue-green-100: hsl(var(--blue-green-hue), var(--blue-green-sat), 88%);
 
     /*Purple*/
     --purple-900: hsl(var(--purple-hue), var(--purple-sat), 11%);
@@ -119,6 +133,7 @@
     --border-color-1: var(--neutral-1000);
     --border-color-2: var(--purple-800);
     --border-color-3: var(--blue-700);
+    --border-color-4: var(--blue-green-800);
 
 
     --background-primary: var(--neutral-100);
@@ -130,7 +145,7 @@
     --border-3: var(--border) var(--border-color-3);
     --button-primary-background: var(--blue-500);
     --button-primary-hover: var(--blue-700);
-
+    --filter-button-background: var(--blue-green-700);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -138,6 +153,7 @@
     --border-color-1: var(--neutral-100);
     --border-color-2: var(--purple-600);
     --border-color-3: var(--blue-600);
+    --border-color-4: var(--blue-green-400);
 
     --background-primary: var(--neutral-900);
     --background-secondary: var(--green-700);
@@ -148,6 +164,6 @@
     --border-3: var(--border) var(--border-color-3);
     --button-primary-background: var(--blue-300);
     --button-primary-hover: var(--blue-100);
-
+    --filter-button-background: var(--blue-green-600);
   }
 }
