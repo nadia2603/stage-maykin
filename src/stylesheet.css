@@ -37,11 +37,11 @@
     --font-family-text: "Nunito", system-ui, sans-serif;
 
     /*Fonts*/
-    --font-size-100: 16px;
-    --font-size-200: 18px;
-    --font-size-300: 20px;
-    --font-size-400: 24px;
-    --font-size-500: 48px;
+    --font-size-100: 1em;
+    --font-size-200: 1.125em;
+    --font-size-300: 1.25em;
+    --font-size-400: 1.5em;
+    --font-size-500: 3em;
 
     /*Font-weight*/
     --font-weight-button: 600;
