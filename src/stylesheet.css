@@ -139,13 +139,15 @@
     --background-primary: var(--neutral-100);
     --background-secondary: var(--green-200);
     --card-background: var(--purple-600);
-    --text-color: var(--neutral-100);
+    --text-color-primary: var(--neutral-100);
+    --text-color-secondary: var(--neutral-1000);
     --border-1: var(--border) var(--border-color-1);
     --border-2: var(--border) var(--border-color-2);
     --border-3: var(--border) var(--border-color-3);
     --button-primary-background: var(--blue-500);
     --button-primary-hover: var(--blue-700);
     --filter-button-background: var(--blue-green-700);
+    --filter-button-hover: var(--blue-green-800);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -158,12 +160,14 @@
     --background-primary: var(--neutral-900);
     --background-secondary: var(--green-700);
     --card-background: var(--purple-700);
-    --text-color: var(--neutral-1000);
+    --text-color-primary: var(--neutral-1000);
+    --text-color-secondary: var(--neutral-100);
     --border-1: var(--border) var(--border-color-1);
     --border-2: var(--border) var(--border-color-2);
     --border-3: var(--border) var(--border-color-3);
     --button-primary-background: var(--blue-300);
     --button-primary-hover: var(--blue-100);
     --filter-button-background: var(--blue-green-600);
+    --filter-button-hover: var(--blue-green-500);
   }
 }
