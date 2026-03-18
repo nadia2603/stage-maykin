@@ -1,4 +1,41 @@
+@font-face {
+  font-family: "CherryBombOne";
+  src:
+    url("/fonts/CherryBombOne-Regular.woff2") format("woff2"),
+    url("/fonts/CherryBombOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src:
+    url("/fonts/Nunito-Regular.woff2") format("woff2"),
+    url("/fonts/Nunito-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src:
+    url("/fonts/Nunito-SemiBold.woff2") format("woff2"),
+    url("/fonts/Nunito-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 :root {
+    color-scheme: light dark;
+
+    /*Font-family*/
+    --font-family-heading: "CherryBombOne", system-ui, sans-serif;
+    --font-family-text: "Nunito", system-ui, sans-serif;
+
     /*Fonts*/
     --font-size-100: 16px;
     --font-size-200: 18px;
@@ -7,8 +44,8 @@
     --font-size-500: 48px;
 
     /*Font-weight*/
-    --font-weight-button: 700;
-    --font-weight-text: 400;
+    --font-weight-button: 600;
+    --font-weight-body: 400;
 
     /*Line-height*/
     --line-height-xl: 1.6;
@@ -19,6 +56,7 @@
     --border-radius-m: 2em;
     --border-radius-s: 1.25em;
 
+    /*Colors*/
     --green-hue: 172;
     --green-sat: 15%;
 
@@ -75,4 +113,41 @@
     --neutral-200: hsl(var(--neutral-hue), var(--neutral-sat), 80%);
     --neutral-100: hsl(var(--neutral-hue), var(--neutral-sat), 90%);
     --neutral-50: hsl(var(--neutral-hue), var(--neutral-sat), 100%);
+
+    /*Border*/
+    --border: 1px solid;
+    --border-color-1: var(--neutral-1000);
+    --border-color-2: var(--purple-800);
+    --border-color-3: var(--blue-700);
+
+
+    --background-primary: var(--neutral-100);
+    --background-secondary: var(--green-200);
+    --card-background: var(--purple-600);
+    --text-color: var(--neutral-100);
+    --border-1: var(--border) var(--border-color-1);
+    --border-2: var(--border) var(--border-color-2);
+    --border-3: var(--border) var(--border-color-3);
+    --button-primary-background: var(--blue-500);
+    --button-primary-hover: var(--blue-700);
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-color-1: var(--neutral-100);
+    --border-color-2: var(--purple-600);
+    --border-color-3: var(--blue-600);
+
+    --background-primary: var(--neutral-900);
+    --background-secondary: var(--green-700);
+    --card-background: var(--purple-700);
+    --text-color: var(--neutral-1000);
+    --border-1: var(--border) var(--border-color-1);
+    --border-2: var(--border) var(--border-color-2);
+    --border-3: var(--border) var(--border-color-3);
+    --button-primary-background: var(--blue-300);
+    --button-primary-hover: var(--blue-100);
+
+  }
 }
